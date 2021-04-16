@@ -1,0 +1,16 @@
+
+title: Contributing to France-IOI
+url: "//france-ioi.github.io"
+baseurl: "/contributing"
+
+remote_theme: pmarsceill/just-the-docs@v0.2.6
+# Color scheme currently only supports "dark" or nil (default)
+color_scheme: nil
+
+search_enabled: true
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
