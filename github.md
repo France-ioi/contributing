@@ -21,6 +21,8 @@ Expected every few minutes (max 2h):
 - `git commit -m "<a relevant commit msg>"`
 - `git push origin <yourbranchname>`
 
+Every commit should be on one single piece of work. If you change two independent tasks, e.g. you fix a typo in a translation and you reindent a file, even if they take 30 seconds each, you should create two commits. This makes many commits at the end (especially after a review), but at least we can isolate and undo a commit without effort if needed. It also makes reviewer's work easier.
+
 ## Rebasing
 
 A git rebase can be very useful, especially for removing from git history something which should not have committed in the first place, or to fix a commit.
